@@ -1,0 +1,21 @@
+.c-header {
+  background-color: #252525;
+  height: 60px;
+
+  &__container {
+    min-width: 300px;
+    background-color: #252525;
+    margin: 0 auto; 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+  }
+
+  &__brand-logo {
+    width: 175px;
+    height: auto;
+    margin-left: 15px;
+  }
+}
