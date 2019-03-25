@@ -6,6 +6,12 @@
 @import "base_styles/fonts";
 
 
+/* Object Styles =========================
+======================================= */
+
+@import "objects/o-main-container";
+
+
 /* Component Styles ======================
 ======================================= */
 @import "components/c-header";
@@ -14,8 +20,10 @@
 @import "components/c-hamburger-nav";
 @import "components/c-footer";
 @import "components/c-travel";
+@import "components/c-about";
+@import "components/c-image__slider";
+@import "components/c-recipe-categories";
+@import "components/c-recipes";
+@import "components/c-cookbook";
 
-/* Object Styles =========================
-======================================= */
 
-@import "objects/o-main-container";

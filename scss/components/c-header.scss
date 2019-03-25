@@ -1,9 +1,11 @@
 .c-header {
   background-color: #252525;
-  height: 60px;
+  // height: 60px;
+  margin-bottom: 15px;
 
   &__container {
     min-width: 300px;
+    margin: 0 auto;
     background-color: #252525;
     margin: 0 auto; 
     height: 60px;
@@ -16,6 +18,5 @@
   &__brand-logo {
     width: 175px;
     height: auto;
-    margin-left: 15px;
   }
 }
