@@ -1,6 +1,7 @@
 .c-footer {
   background-color: #252525;
   color: #f2f2f2;
+  width: 100%;
 
   &__container {
     min-width: 300px;
@@ -32,6 +33,10 @@
       font-size: 0.8em;
     }
 
+    li a:hover {
+      color: #939598;
+    }
+
     a {
       text-decoration: none;
       color: #f2f2f2;
@@ -52,6 +57,10 @@
       display: inline-block;
       text-transform: uppercase;
       font-size: 0.7em;
+    }
+
+    li a:hover {
+      color: #939598;
     }
 
     a {
@@ -89,6 +98,10 @@
       font-size: 0.7em;
     }
 
+    li a:hover {
+      color: #939598;
+    }
+
     a {
       text-decoration: none;
       color: #f2f2f2;
@@ -102,14 +115,62 @@
 
 @media screen and (min-width: 768px) {
   .c-footer {
-
     &__container {
       max-width: 768px;
+      padding: 0 3%;
     }
-      &__info {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
+
+    &__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+      &__nav {
+        width: 400px;
+    
+        li {
+          font-size: 1em;
+        }
+      }
+
+      &__recipe-nav {
+    
+        li {
+          font-size: 0.8em;
+          margin-top: 5px;
+        }
+      }
+      &__social,
+      &__support,
+      &__legal {
+        width: 300px;
+        padding-bottom: 15px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 960px) {
+    .c-footer {
+      &__container {
+        max-width: 860px;
+        padding: 0 5%;
+      }
+
+      &__nav {
+        width: 425px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1120px) {
+    .c-footer {
+      &__container {
+        max-width: 1060px;
+      }
+
+      &__nav {
+        width: 475px;
       }
     }
   }
