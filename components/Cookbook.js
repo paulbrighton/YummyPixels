@@ -3,16 +3,18 @@ import Link from 'next/link'
 
 class Cookbook extends Component {
   render () {
-    return <div className='c-cookbook'>
-      <h2>Buy the YummyEats Cookbook</h2>
-      <div className='section__divider' />
-      <div className='c-cookbook__image'>
-        <figure>
-          <img src='/static/images/yummyeats.jpg' />
-        </figure>
+    return <section className='c-cookbook'>
+      <div className='c-cookbook__container'>
+        <h2>Buy the YummyEats Cookbook</h2>
+        <div className='section__divider' />
+        <div className='c-cookbook__image'>
+          <figure>
+            <img src='/static/images/yummyeats.jpg' />
+          </figure>
+        </div>
+        <p>Want the recipes availbale offline? The YummyEats cookbook is avaiable to buy as a digital download from Amazon or iBooks. Get your copy now!</p>
       </div>
-      <p>The YummyEats cookbook is avaiable to buy as a digital download from Amazon or iBooks. Get your copy now!</p>
-    </div>
+    </section>
   }
 }
 

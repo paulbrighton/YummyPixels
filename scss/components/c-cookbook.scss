@@ -1,14 +1,18 @@
 .c-cookbook {
+  &__container {
+    min-width: 300px;
+    margin: 0 auto;
+  }
+
   p {
-    margin: 15px 0 15px;
+    margin: 15px 3% 15px;
   }
 
   &__image {
-    // width: 100%;
-    margin: 0 auto;
     position: relative;
     text-align: center;
     color: white;
+    margin: 0 3%;
 
     img {
       width: 100%;
