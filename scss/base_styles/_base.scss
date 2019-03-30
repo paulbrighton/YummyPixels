@@ -1,21 +1,33 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 300;
   line-height: 1.5;
   box-sizing: border-box;
   color: #252525;
-  background-color: #f6f6f7;
+  background-color: #f2f2f2;
   font-size: 16px;
 }
 
-h1 {
-  font-size: 1.5em;
+h1, h2 {
+  font-size: 1.1em;
   font-weight: 300;
+  margin: 15px 3% 0;
 }
 
 .section__divider {
   height: 1px;
   background-color: #252525;
-  width: 100%;
-  margin: 5px 0 25px;
+  margin: 5px 3% 25px;
+}
+
+@media screen and (min-width: 460px) {
+  h1, h2 {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1, h2 {
+    font-size: 1.6em;
+  }
 }

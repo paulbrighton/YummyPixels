@@ -1,9 +1,12 @@
 .c-about {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 0 2%;
+  &__container {
+    min-width: 300px;
+    max-width: 767px;
+    margin: 0 auto;
+  }
 
   p {
-    margin: 25px 0 15px;
+    margin: 15px 0;
+    padding: 0 3%;
   }
 }

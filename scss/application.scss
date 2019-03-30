@@ -10,11 +10,11 @@
 ======================================= */
 
 @import "objects/o-main-container";
-@import "objects/o-footer";
 
 
 /* Component Styles ======================
 ======================================= */
+
 @import "components/c-header";
 @import "components/c-main-nav";
 @import "components/c-overlay";
@@ -22,7 +22,7 @@
 @import "components/c-footer";
 @import "components/c-travel";
 @import "components/c-about";
-@import "components/c-image__slider";
+@import "components/c-hero";
 @import "components/c-recipe-categories";
 @import "components/c-recipes";
 @import "components/c-cookbook";
