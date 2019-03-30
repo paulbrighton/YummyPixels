@@ -12,7 +12,10 @@ class Cookbook extends Component {
             <img src='/static/images/yummyeats.jpg' />
           </figure>
         </div>
-        <p>Want the recipes availbale offline? The YummyEats cookbook is avaiable to buy as a digital download from Amazon or iBooks. Get your copy now!</p>
+        <div className='c-cookbook__text'>
+          <h3>Get the book!</h3>
+          <p>Want the recipes availbale offline? The YummyEats cookbook is avaiable to buy as a digital download from Amazon or iBooks. Get your copy now!</p>
+        </div>
       </div>
     </section>
   }

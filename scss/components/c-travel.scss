@@ -6,11 +6,18 @@
 
   &__text {
     padding: 0 3%;
+    max-width: 767px;
+    margin: 25px auto;
+  }
+
+  p {
+    margin-bottom: 15px;
   }
 
   &__image {
-    // width: 100%;
-    margin: 0 3%;
+    max-width: 767px;
+    margin: 0 auto;
+    padding: 0 3%;
     position: relative;
     text-align: center;
     color: white;

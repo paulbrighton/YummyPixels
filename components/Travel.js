@@ -10,7 +10,7 @@ class Travel extends Component {
         <figure className='c-travel__image'>
           <img src='/static/images/Japan_Korea 617.jpg' />
           <figcaption className='c-travel__image-text'><h4>Fushimi Inari Shrine</h4></figcaption>
-        </figure>  
+        </figure>
       </div>
       <div className='c-travel__text'>
         <p>YummyPixels was born when Food Photographer Paul Brighton and his wife and food stylist, Thais, realised that their photo shoot sessions conveyed their love for the food they tasted during their travels around the world.</p>

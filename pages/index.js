@@ -21,11 +21,11 @@ class Index extends Component {
 
         <About />
 
-        <Cookbook />
-
         <RecipeCategories />
 
         <Travel />
+
+        <Cookbook />
 
       </main>
     </Layout>
