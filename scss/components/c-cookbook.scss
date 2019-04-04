@@ -1,6 +1,9 @@
 .c-cookbook {
+  padding-bottom: 15px;
+
   &__container {
     min-width: 300px;
+    max-width: 1300px;
     margin: 0 auto 25px;
   }
 
@@ -30,6 +33,10 @@
     img {
       width: 100%;
       height: auto;
+    }
+
+    &:hover {
+      cursor: pointer;
     }
   }
 }

@@ -5,7 +5,7 @@ class Cookbook extends Component {
   render () {
     return <section className='c-cookbook'>
       <div className='c-cookbook__container'>
-        <h2>Buy the YummyEats Cookbook</h2>
+        <h2>YummyEats Cookbook</h2>
         <div className='section__divider' />
         <div className='c-cookbook__image'>
           <figure>
