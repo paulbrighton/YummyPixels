@@ -5,7 +5,7 @@ class Travel extends Component {
   render () {
     return <section className='c-travel'>
       <div className='c-travel__container'>
-        <h2>Travel Inspiration</h2>
+        <h2 id='c-travel__header'>Travel Inspiration</h2>
         <div className='section__divider' />
         <figure className='c-travel__image'>
           <img src='/static/images/Japan_Korea 617.jpg' />

@@ -10,12 +10,12 @@ class Footer extends Component {
           <FooterNav />
           <div className='c-footer__recipe-nav'>
             <ul>
-              <li><Link href=''><a>Vegetarian</a></Link></li>
-              <li><Link href=''><a>Seafood</a></Link></li>
-              <li><Link href=''><a>Poultry</a></Link></li>
-              <li><Link href=''><a>Pork</a></Link></li>
-              <li><Link href=''><a>Beef</a></Link></li>
-              <li><Link href=''><a>Lamb</a></Link></li>
+              <li><Link href='/vegetarian'><a>Vegetarian</a></Link></li>
+              <li><Link href='/seafood'><a>Seafood</a></Link></li>
+              <li><Link href='/poultry'><a>Poultry</a></Link></li>
+              <li><Link href='/pork'><a>Pork</a></Link></li>
+              <li><Link href='/beef'><a>Beef</a></Link></li>
+              <li><Link href='lamb'><a>Lamb</a></Link></li>
             </ul>
           </div>
         </div>

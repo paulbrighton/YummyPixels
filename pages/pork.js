@@ -1,16 +1,16 @@
 import { Component } from 'react'
 
 import Layout from '../components/Layout'
-import LambRecipes from '../components/LambRecipes'
+import PorkRecipes from '../components/PorkRecipes'
 
-class Lamb extends Component {
+class Pork extends Component {
   render () {
     return <Layout {...this.props}>
       <main className='o-main'>
-        <LambRecipes />
+        <PorkRecipes />
       </main>
     </Layout>
   }
 }
 
-export default Lamb
+export default Pork
