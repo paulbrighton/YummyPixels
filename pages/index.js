@@ -14,9 +14,14 @@ class Index extends Component {
         <div className='section__divider' />
         <section className='c-hero__image'>
           <figure>
-            <img src='static/Images/jungle_curry_hero.jpg' />
+            <picture>
+              <source media='(max-width: 768px)' srcset='static/Images/jungle_curry_hero_mobile.jpg' />
+              <img src='static/Images/jungle_curry_hero.jpg' alt='Thai jungle curry with rice' />
+            </picture>
+            {/* <img src='static/Images/jungle_curry_hero.jpg' /> */}
           </figure>
           <div className='c-hero__image--text'><h4>Kaeng Pa - Thai Pork Jungle Curry</h4></div>
+          <button className='c-hero__image--button'>Get the Recipe</button>
         </section>
 
         <About />
