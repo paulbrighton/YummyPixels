@@ -1,0 +1,114 @@
+.c-directions {
+  max-width: 1120px;
+  margin: 15px auto 0;
+
+  h2 {
+    margin: 10px 0;
+    font-size: 1.3em;
+  }
+   
+  &__ingredients {
+    padding: 0 3%;
+
+    &-items {
+      
+      ul li {
+        font-size: 1.1em;
+      }
+    }
+  }
+
+  &__instructions {
+    margin-top: 35px;
+
+    ol {
+      counter-reset: olNumbers;
+      }
+
+    li {
+      list-style: none;
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
+
+    li:before {
+      counter-increment: olNumbers;
+      content:counter(olNumbers) ". ";
+      color: #FF3200;
+      font-weight: 400;    
+      display: inline-block;
+      text-align: center;
+      margin-right: 5px;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .c-directions {
+    margin-top: 25px;
+
+    h2 {
+      font-size: 1.4em;
+    }
+     
+    &__ingredients {
+
+      &-items {
+        ul li {
+          font-size: 1.2em;
+        }
+      }
+    }
+  
+    &__instructions {
+
+      li {
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .c-directions {
+
+    h2 {
+      font-size: 1.5em;
+    }
+     
+    &__ingredients {
+      display: flex;
+
+      &-items {
+        width: 35%;
+
+        ul li {
+          font-size: 1.3em;
+        }
+      }
+    }
+  
+    &__instructions {
+      width: 55%;
+      margin-left: 10%;
+      margin-top: 0;
+
+      li {
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .c-directions {
+
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    &__instructions {
+      margin-left: 5%;
+    }
+  }
+}

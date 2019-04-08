@@ -37,6 +37,7 @@ class Footer extends Component {
             <h3>Boring Stuff</h3>
             <p>Designed by Paul Brighton</p>
             <p>&copy; 2018 Paul Brighton</p>
+            <p>Icons by <a href='https://www.flaticon.com/authors/smashicons' title='Smashicons' target='blank'>Smashicons</a> from <a href='https://www.flaticon.com/' title='Flaticon'>www.flaticon.com</a></p>
           </div>
         </div>
       </div>
