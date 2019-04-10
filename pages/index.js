@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import Link from 'next/link'
 
 import Layout from '../components/Layout'
 import Travel from '../components/Travel'
@@ -20,7 +21,9 @@ class Index extends Component {
             </picture>
           </figure>
           <div className='c-hero__image--text'><h4>Kaeng Pa - Thai Pork Jungle Curry</h4></div>
-          <button className='c-hero__image--button'>Get the Recipe</button>
+          <Link href='/mutton_chaap'>
+            <button className='c-hero__image--button'>Get the Recipe</button>
+          </Link>
         </section>
 
         <About />
