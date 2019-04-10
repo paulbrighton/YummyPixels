@@ -38,7 +38,7 @@ class RecipeCategories extends Component {
         <Link href='/poultry'>
           <div className='c-recipe-card'>
             <figure className='c-recipe-card__image'>
-              <img src='/static/images/quwarmah_ala_dajaj_category.jpg' />
+              <img src='/static/Images/quwarmah_ala_dajaj_category.jpg' />
             </figure>
             <figcaption className='c-recipe-card__title'>Poultry</figcaption>
             <p className='c-recipe-card__text'>Chicken is one of the most popular meats in the world but don't forget the duck.</p>
