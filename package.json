@@ -18,7 +18,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "jest"
+    "test": "jest",
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "babel-jest": "^24.5.0",

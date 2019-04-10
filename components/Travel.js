@@ -7,10 +7,12 @@ class Travel extends Component {
       <div className='c-travel__container'>
         <h2 id='c-travel__header'>Travel Inspiration</h2>
         <div className='section__divider' />
-        <figure className='c-travel__image'>
-          <img src='/static/images/Japan_Korea 617.jpg' />
-          <figcaption className='c-travel__image-text'><h4>Fushimi Inari Shrine</h4></figcaption>
-        </figure>
+        <Link href='/travel'>
+          <figure className='c-travel__image'>
+            <img src='/static/images/Japan_Korea 617.jpg' />
+            <figcaption className='c-travel__image-text'><h4>Fushimi Inari Shrine</h4></figcaption>
+          </figure>
+        </Link>
       </div>
       <div className='c-travel__text'>
         <p>I have travelled through Africa and South East Asia for five months, lived in Brazil for a year and travelled through the Amazon for a month and now I take two to three-week trips as often as possible to the destinations I need to check off my list.</p>
