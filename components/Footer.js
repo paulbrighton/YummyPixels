@@ -20,7 +20,7 @@ class Footer extends Component {
           </div>
         </div>
         <div className='c-footer__brand'>
-          <Link href='/'><a><img src='/static/images/yummypixels-logo.png' alt='Yummy Pixels Logo' className='c-footer__brand-logo' /></a></Link>
+          <Link href='/'><a><img src='/static/Images/yummypixels-logo.png' alt='Yummy Pixels Logo' className='c-footer__brand-logo' /></a></Link>
         </div>
         <div className='c-footer__info'>
           <div className='c-footer__social'>
