@@ -1,0 +1,42 @@
+.c-cookbook {
+  padding-bottom: 15px;
+
+  &__container {
+    min-width: 300px;
+    max-width: 1300px;
+    margin: 0 auto 25px;
+  }
+
+  &__text {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 3%;
+  }
+
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FB3202;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 5px 0 5px;
+  }
+
+  &__image {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 3%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.c-about {
+  &__container {
+    min-width: 300px;
+    max-width: 767px;
+    margin: 0 auto;
+    padding: 5px 0 15px;
+  }
+
+  p {
+    margin: 15px 0;
+    padding: 0 3%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .c-about {
+    &__container {
+      max-width: 900px;
+    }
+  }
+}
