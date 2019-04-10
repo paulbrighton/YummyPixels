@@ -15,7 +15,8 @@
     "react-dom": "^16.8.4"
   },
   "scripts": {
-    "dev": "next",
+    "heroku-postbuild": "next build",
+    "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "test": "jest"
