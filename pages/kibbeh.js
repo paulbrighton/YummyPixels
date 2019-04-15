@@ -9,6 +9,7 @@ class Kibbeh extends Component {
         <div className='c-recipe'>
           <div className='c-recipe__container'>
             <section className='c-recipe__header'>
+              <h1>Kibbeh</h1>
               <div className='c-recipe__image'>
                 <figure>
                   <picture>

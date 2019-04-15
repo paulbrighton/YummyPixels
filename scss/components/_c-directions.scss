@@ -14,6 +14,7 @@
       
       ul li {
         font-size: 1.1em;
+        line-height: 2;
       }
     }
   }
@@ -29,6 +30,15 @@
       list-style: none;
       margin-bottom: 20px;
       font-size: 1.1em;
+
+      a {
+        text-decoration: none;
+        color: #FF3200;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
     }
 
     li:before {

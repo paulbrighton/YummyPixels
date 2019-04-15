@@ -9,6 +9,7 @@ class Tabbouleh extends Component {
         <div className='c-recipe'>
           <div className='c-recipe__container'>
             <section className='c-recipe__header'>
+              <h1>Tabbouleh</h1>
               <div className='c-recipe__image'>
                 <figure>
                   <picture>
@@ -17,7 +18,6 @@ class Tabbouleh extends Component {
                   </picture>
                 </figure>
               </div>
-              <h1>Tabbouleh</h1>
               <p className='c-recipe__description-text'>Arabic salad made with bulghur wheat, tomato, cucumber, onions, parsley and mint and seasoned with lemon juice and olive oil.</p>
               <div className='c-recipe__info'>
                 <div className='c-recipe__info-item'>

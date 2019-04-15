@@ -9,6 +9,7 @@ class SeekhKebab extends Component {
         <div className='c-recipe'>
           <div className='c-recipe__container'>
             <section className='c-recipe__header'>
+              <h1>Seekh Kebab</h1>
               <div className='c-recipe__image'>
                 <figure>
                   <picture>
@@ -17,7 +18,6 @@ class SeekhKebab extends Component {
                   </picture>
                 </figure>
               </div>
-              <h1>Seekh Kebab</h1>
               <p className='c-recipe__description-text'>Grilled spiced lamb mince on a metal skewers served with chilli sauce, lemon wedges and flatbread.</p>
               <div className='c-recipe__info'>
                 <div className='c-recipe__info-item'>
