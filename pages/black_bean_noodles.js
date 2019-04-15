@@ -9,6 +9,7 @@ class BlackBeanNoodles extends Component {
         <div className='c-recipe'>
           <div className='c-recipe__container'>
             <section className='c-recipe__header'>
+              <h1>Beef &amp; Black Bean Noodles</h1>
               <div className='c-recipe__image'>
                 <figure>
                   <picture>
@@ -17,8 +18,7 @@ class BlackBeanNoodles extends Component {
                   </picture>
                 </figure>
               </div>
-              <h1>Beef &amp; Black Bean Noodles</h1>
-              <p className='c-recipe__description-text'>Chinese spicy beef and black bean sauce with thick egg noodles.</p>
+              <p className='c-recipe__description-text'>Chinese spicy beef and black bean sauce with red chilli and thick egg noodles.</p>
               <div className='c-recipe__info'>
                 <div className='c-recipe__info-item'>
                   <figure><img src='/static/Images/alarm-clock.svg' alt='Alarm clock' /></figure>

@@ -9,6 +9,7 @@ class Kibbeh extends Component {
         <div className='c-recipe'>
           <div className='c-recipe__container'>
             <section className='c-recipe__header'>
+              <h1>Kibbeh</h1>
               <div className='c-recipe__image'>
                 <figure>
                   <picture>
@@ -17,7 +18,6 @@ class Kibbeh extends Component {
                   </picture>
                 </figure>
               </div>
-              <h1>Kibbeh</h1>
               <p className='c-recipe__description-text'>Middle Eastern spiced minced meat and bulgar wheat patties.</p>
               <div className='c-recipe__info'>
                 <div className='c-recipe__info-item'>

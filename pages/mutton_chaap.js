@@ -9,6 +9,7 @@ class MuttonChaap extends Component {
         <div className='c-recipe'>
           <div className='c-recipe__container'>
             <section className='c-recipe__header'>
+              <h1>Mutton Chaap - Indian Lamb Chops</h1>
               <div className='c-recipe__image'>
                 <figure>
                   <picture>
@@ -17,7 +18,6 @@ class MuttonChaap extends Component {
                   </picture>
                 </figure>
               </div>
-              <h1>Mutton Chaap - Indian Lamb Chops</h1>
               <p className='c-recipe__description-text'>Fried battered spicy lamb cutlets garnished with coriander and chaat masala.</p>
               <div className='c-recipe__info'>
                 <div className='c-recipe__info-item'>

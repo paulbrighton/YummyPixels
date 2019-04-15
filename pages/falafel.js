@@ -9,6 +9,7 @@ class Falafel extends Component {
         <div className='c-recipe'>
           <div className='c-recipe__container'>
             <section className='c-recipe__header'>
+              <h1>Falafel</h1>
               <div className='c-recipe__image'>
                 <figure>
                   <picture>
@@ -17,7 +18,6 @@ class Falafel extends Component {
                   </picture>
                 </figure>
               </div>
-              <h1>Falafel</h1>
               <p className='c-recipe__description-text'>Middle Eastern deep fried balls made of chickpeas served with flatbread, mixed salad and hummus.</p>
               <div className='c-recipe__info'>
                 <div className='c-recipe__info-item'>

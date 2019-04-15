@@ -2,23 +2,23 @@ import { Component } from 'react'
 
 import Layout from '../components/Layout'
 
-class PapayaSalad extends Component {
+class SaltFishAndAckee extends Component {
   render () {
     return <Layout {...this.props}>
       <main className='o-main'>
         <div className='c-recipe'>
           <div className='c-recipe__container'>
             <section className='c-recipe__header'>
-              <h1>Som Tam Thai - Green Papaya Salad</h1>
+              <h1>Jamaican Ackee & Saltfish</h1>
               <div className='c-recipe__image'>
                 <figure>
                   <picture>
-                    <source media='(max-width: 768px)' srcSet='static/Images/food/papaya_salad.jpg' />
-                    <img src='static/Images/food/papaya_salad_hero.jpg' alt='Thai jungle curry with rice' />
+                    <source media='(max-width: 768px)' srcSet='static/Images/food/salt_fish_ackee.jpg' />
+                    <img src='static/Images/food/salt_fish_ackee_hero.jpg' alt='Thai jungle curry with rice' />
                   </picture>
                 </figure>
               </div>
-              <p className='c-recipe__description-text'>Thai green papaya salad with baby tomatoes, snake beans and a sprinkle of peanuts.</p>
+              <p className='c-recipe__description-text'>Traditional Jamaican dish made of salt cod and ackee fruit served with fried dumplings and callaloo.</p>
               <div className='c-recipe__info'>
                 <div className='c-recipe__info-item'>
                   <figure><img src='/static/Images/alarm-clock.svg' alt='Alarm clock' /></figure>
@@ -26,7 +26,7 @@ class PapayaSalad extends Component {
                 </div>
                 <div className='c-recipe__info-item'>
                   <figure><img src='/static/Images/meal.svg' alt='Animated hand carrying food' /></figure>
-                  <p>Serves: 2</p>
+                  <p>Serves: 4</p>
                 </div>
                 <div className='c-recipe__info-item'>
                   <figure><img src='/static/Images/user.svg' alt='Animated head with pencil' /></figure>
@@ -39,27 +39,30 @@ class PapayaSalad extends Component {
                 <div className='c-directions__ingredients-items'>
                   <h2>Ingredients</h2>
                   <ul>
-                    <li>1 medium green papaya, shredded</li>
-                    <li>10 cherry tomatoes, halved</li>
-                    <li>50g snake beans, blanched in boiling water and halved</li>
-                    <li>1 red chilli, finely sliced</li>
-                    <li>1 tbsp fish sauce</li>
-                    <li>Juice of 1 lime</li>
-                    <li>1 garlic clove, minced</li>
-                    <li>1 tbsp palm sugar</li>
+                    <li>320g can of saltfish, drained</li>
+                    <li>540g can of ackee, drained</li>
+                    <li>1 large onion, chopped</li>
+                    <li>1 large green pepper, thin strips</li>
+                    <li>1 medium tomato, chopped</li>
+                    <li>2 cloves of garlic, minced</li>
+                    <li>1 scotch bonnet pepper, chopped finely</li>
+                    <li>2 spring onions, chopped</li>
+                    <li>1 tbsp extra virgin olive oil</li>
+                    <li>Salt and pepper to taste</li>
                   </ul>
                   <h2>To serve: </h2>
                   <ul>
-                    <li>2 tablespoons raw peanuts</li>
+                    <li>Jamaican Fried Dumplings</li>
+                    <li>Callaloo</li>
                   </ul>
                 </div>
                 <div className='c-directions__instructions'>
                   <h2>Directions</h2>
                   <ol>
-                    <li>Place peanuts in a dry frying pan on high heat and toast for 2 minutes constantly moving to avoid burning. Transfer to pestle and mortar and lightly crush.</li>
-                    <li>Place all ingredients except peanuts in a bowl and mix together.</li>
-                    <li>Lightly beat the egg white in a large mixing bowl then add the flour, cornflour, black pepper, fennel, cardamom, salt, ginger and chillies and mix well.</li>
-                    <li>Transfer to individual plates and top with a sprinkle of the toasted peanuts.</li>
+                    <li>Heat the oil in a large frying pan over medium heat and fry the onion, garlic, scotch bonnet and green pepper for about 5 minutes until tender.</li>
+                    <li>Add the tomatoes and spring onion and cook for a further 2 minutes.</li>
+                    <li>Add the saltfish and ackee, cook for a further 3 minutes then season to taste with salt and black pepper.</li>
+                    <li>Serve immediately with <a href='https://www.africanbites.com/dumpling/'>Jamaican Fried Dumplings</a> and Callaloo.</li>
                   </ol>
                 </div>
               </div>
@@ -71,4 +74,4 @@ class PapayaSalad extends Component {
   }
 }
 
-export default PapayaSalad
+export default SaltFishAndAckee
