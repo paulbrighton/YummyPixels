@@ -14,7 +14,7 @@ class BlackBeanNoodles extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/black_bean_noodles.jpg' />
-                    <img src='static/Images/food/black_bean_noodles_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/black_bean_noodles_hero.jpg' alt='Chinese beef and black bean sauce' />
                   </picture>
                 </figure>
               </div>

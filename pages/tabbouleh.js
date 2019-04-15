@@ -14,7 +14,7 @@ class Tabbouleh extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/tabbouleh.jpg' />
-                    <img src='static/Images/food/tabbouleh_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/tabbouleh_hero.jpg' alt='Middle eastern tabbouleh' />
                   </picture>
                 </figure>
               </div>

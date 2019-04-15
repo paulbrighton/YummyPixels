@@ -14,7 +14,7 @@ class QuwarmahAlaDajaj extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/quwarmah_ala_dajaj.jpg' />
-                    <img src='static/Images/food/quwarmah_ala_dajaj_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/quwarmah_ala_dajaj_hero.jpg' alt='Kuwaiti curried chicken' />
                   </picture>
                 </figure>
               </div>

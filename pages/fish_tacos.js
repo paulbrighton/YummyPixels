@@ -14,7 +14,7 @@ class FishTacos extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/fish_tacos.jpg' />
-                    <img src='static/Images/food/fish_tacos_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/fish_tacos_hero.jpg' alt='Mexican fish tacos' />
                   </picture>
                 </figure>
               </div>

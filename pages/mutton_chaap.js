@@ -14,7 +14,7 @@ class MuttonChaap extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/indian_lamb_chops.jpg' />
-                    <img src='static/Images/food/indian_lamb_chops_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/indian_lamb_chops_hero.jpg' alt='Indian battered lamb chops' />
                   </picture>
                 </figure>
               </div>

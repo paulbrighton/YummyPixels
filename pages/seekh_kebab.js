@@ -14,7 +14,7 @@ class SeekhKebab extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/seekh_kebab.jpg' />
-                    <img src='static/Images/food/seekh_kebab-hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/seekh_kebab-hero.jpg' alt='Seekh kebabs on skewers' />
                   </picture>
                 </figure>
               </div>

@@ -14,7 +14,7 @@ class Falafel extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/falafel.jpg' />
-                    <img src='static/Images/food/falafel_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/falafel_hero.jpg' alt='Falafel with flatbread' />
                   </picture>
                 </figure>
               </div>

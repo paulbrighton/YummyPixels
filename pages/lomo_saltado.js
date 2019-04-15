@@ -14,7 +14,7 @@ class LomoSaltado extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/lomo_saltado.jpg' />
-                    <img src='static/Images/food/lomo_saltado_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/lomo_saltado_hero.jpg' alt='Peruvian beef stirfry' />
                   </picture>
                 </figure>
               </div>

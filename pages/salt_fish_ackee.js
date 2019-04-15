@@ -14,7 +14,7 @@ class SaltFishAndAckee extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/salt_fish_ackee.jpg' />
-                    <img src='static/Images/food/salt_fish_ackee_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/salt_fish_ackee_hero.jpg' alt='Salt fish and ackee' />
                   </picture>
                 </figure>
               </div>
