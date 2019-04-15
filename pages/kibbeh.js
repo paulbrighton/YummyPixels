@@ -14,7 +14,7 @@ class Kibbeh extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/kibbeh.jpg' />
-                    <img src='static/Images/food/kibbeh_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/kibbeh_hero.jpg' alt='Middle Eastern spiced minced meat and bulgar wheat patties' />
                   </picture>
                 </figure>
               </div>

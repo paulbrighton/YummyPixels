@@ -14,7 +14,7 @@ class TeaSmokedDuck extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/smoked_duck.jpg' />
-                    <img src='static/Images/food/smoked_duck_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/smoked_duck_hero.jpg' alt='Vietnamese tea smoked duck' />
                   </picture>
                 </figure>
               </div>

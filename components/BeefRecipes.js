@@ -11,7 +11,7 @@ class BeefRecipes extends Component {
         <Link href='/black_bean_noodles'>
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
-              <img src='/static/Images/food/black_bean_noodles.jpg' />
+              <img src='/static/Images/food/black_bean_noodles.jpg' alt='Beef and black bean noodles' />
             </figure>
             <figcaption className='c-recipe-card__title'>Beef &amp; Black Bean Noodles</figcaption>
             <p className='c-recipes__recipe-card__text'>Chinese spicy beef and black bean sauce with thick egg noodles.</p>
@@ -20,7 +20,7 @@ class BeefRecipes extends Component {
         <Link href='/kibbeh'>
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
-              <img src='/static/Images/food/kibbeh.jpg' />
+              <img src='/static/Images/food/kibbeh.jpg' alt='Kibbeh' />
             </figure>
             <figcaption className='c-recipe-card__title'>Kibbeh</figcaption>
             <p className='c-recipes__recipe-card__text'>Middle Eastern spiced minced meat and bulgur wheat patties.</p>
@@ -29,7 +29,7 @@ class BeefRecipes extends Component {
         <Link href='/lomo_saltado'>
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
-              <img src='/static/Images/food/lomo_saltado.jpg' />
+              <img src='/static/Images/food/lomo_saltado.jpg' alt='Lomo saltado' />
             </figure>
             <figcaption className='c-recipes__recipe-card__title'>Lomo Saltado</figcaption>
             <p className='c-recipes__recipe-card__text'>Peruvian stir-fry with beef, red onions, tomatoes and chips.</p>
