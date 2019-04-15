@@ -14,7 +14,7 @@ class PapayaSalad extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/papaya_salad.jpg' />
-                    <img src='static/Images/food/papaya_salad_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/papaya_salad_hero.jpg' alt='Thai papaya salad' />
                   </picture>
                 </figure>
               </div>

@@ -9,7 +9,7 @@ class Cookbook extends Component {
         <div className='section__divider' />
         <div className='c-cookbook__image'>
           <figure>
-            <img src='/static/Images/yummyeats.jpg' />
+            <img src='/static/Images/yummyeats.jpg' alt='Yummy Eats cookbook cover' />
           </figure>
         </div>
         <div className='c-cookbook__text'>

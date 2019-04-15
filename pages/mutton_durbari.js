@@ -14,7 +14,7 @@ class MuttonDurbari extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/lamb_curry.jpg' />
-                    <img src='static/Images/food/lamb_curry_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/lamb_curry_hero.jpg' alt='Indian lamb curry' />
                   </picture>
                 </figure>
               </div>

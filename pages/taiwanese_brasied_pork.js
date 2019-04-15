@@ -14,7 +14,7 @@ class TaiwanBraisedPork extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/taiwan_brasied_pork.jpg' />
-                    <img src='static/Images/food/taiwan_brasied_pork_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/taiwan_brasied_pork_hero.jpg' alt='Taiwanese braised pork' />
                   </picture>
                 </figure>
               </div>

@@ -14,7 +14,7 @@ class BrazilianPrawnCurry extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/food/prawns_in_pumpkin.jpg' />
-                    <img src='static/Images/food/prawns_in_pumpkin_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/food/prawns_in_pumpkin_hero.jpg' alt='Brazilian prawn curry' />
                   </picture>
                 </figure>
               </div>

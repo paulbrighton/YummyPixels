@@ -11,7 +11,7 @@ class VegRecipes extends Component {
         <Link href='/falafel'>
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
-              <img src='/static/Images/food/falafel.jpg' />
+              <img src='/static/Images/food/falafel.jpg' alt='Falafel' />
             </figure>
             <figcaption className='c-recipe-card__title'>Falafel</figcaption>
             <p className='c-recipes__recipe-card__text'>Middle Eastern deep fried balls made of chickpeas served with flatbread.</p>
@@ -20,7 +20,7 @@ class VegRecipes extends Component {
         <Link href='/papaya_salad'>
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
-              <img src='/static/Images/food/papaya_salad.jpg' />
+              <img src='/static/Images/food/papaya_salad.jpg' alt='Thai green papaya salad' />
             </figure>
             <figcaption className='c-recipe-card__title'>Som Tam Thai</figcaption>
             <p className='c-recipes__recipe-card__text'>Thai green papaya salad with baby tomatoes, snake beans and peanuts.</p>
@@ -29,7 +29,7 @@ class VegRecipes extends Component {
         <Link href='/tabbouleh'>
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
-              <img src='/static/Images/food/tabbouleh.jpg' />
+              <img src='/static/Images/food/tabbouleh.jpg' alt='Tabbouleh' />
             </figure>
             <figcaption className='c-recipes__recipe-card__title'>Tabbouleh</figcaption>
             <p className='c-recipes__recipe-card__text'>Arabic salad made with bulgur wheat, tomato, cucumber, onions and herbs.</p>
