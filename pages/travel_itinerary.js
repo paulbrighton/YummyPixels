@@ -2,7 +2,7 @@ import { Component } from 'react'
 
 import Layout from '../components/Layout'
 
-class MuttonChaap extends Component {
+class JapanItinerary extends Component {
   render () {
     return <Layout {...this.props}>
       <main className='o-main'>
@@ -76,5 +76,5 @@ class MuttonChaap extends Component {
   }
 }
 
-export default MuttonChaap
+export default JapanItinerary
 
