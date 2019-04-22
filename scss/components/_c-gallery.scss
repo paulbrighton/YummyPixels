@@ -1,0 +1,47 @@
+.c-gallery {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+
+  &__container {
+    min-width: 300px;
+    margin: 15px auto; 
+
+    &--row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      }
+
+    &--column {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .c-gallery {
+
+    &__container {
+
+      &--column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+  } 
+}
+
+@media screen and (min-width: 960px) {
+  .c-gallery {
+  
+    &__container {
+      
+      &--column {
+        width: 25%;
+        max-width: 25%;
+      }
+    }
+  }
+} 
