@@ -5,15 +5,25 @@
     min-width: 300px;
     max-width: 1120px;
     margin: 0 auto;
-    padding: 0 0 35px;
+    padding: 0 3% 35px;
+  }
+
+  &__section__divider {
+    height: 1px;
+    margin: 0 0 35px;
+    background-color: #FF3200;
   }
 
   h1 {
-    font-size: 1.6em;
-    text-align: center;
-    margin: 20px 0; 
-    line-height: 1.2;
+    margin: 15px 0 0;
   }
+
+  // h1 {
+  //   font-size: 1.6em;
+  //   text-align: center;
+  //   margin: 20px 0; 
+  //   line-height: 1.2;
+  // }
 
   &__description-text {
     font-size: 1.3em;
@@ -45,9 +55,9 @@
 @media screen and (min-width: 500px) {
   .c-stock-photography {
   
-    h1 {
-      font-size: 1.8em;
-    }
+    // h1 {
+    //   font-size: 1.8em;
+    // }
   
     &__description-text {
       font-size: 1.5em;
@@ -58,9 +68,9 @@
 @media screen and (min-width: 768px) {
   .c-stock-photography {
     
-    h1 {
-      font-size: 2.3em;
-    }
+    // h1 {
+    //   font-size: 2.3em;
+    // }
   
     &__description-text {
       font-size: 1.7em;
