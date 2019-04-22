@@ -8,7 +8,7 @@ class FooterNav extends Component {
       <ul>
         <li><Link href='/'><a>Home</a></Link></li>
         <li><Link href='/recipes'><a>Recipes</a></Link></li>
-        <li><Link href='/portfolio'><a>Travel</a></Link></li>
+        <li><Link href='/travel'><a>Travel</a></Link></li>
         <li><Link href='stock_photography'><a>Gallery</a></Link></li>
       </ul>
     </div>
