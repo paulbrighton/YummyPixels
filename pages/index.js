@@ -10,7 +10,7 @@ import About from '../components/About'
 class Index extends Component {
   render () {
     return <Layout {...this.props}>
-      <main className='o-main'>
+      <main className='c-main'>
         <h1>Yummy Pixels Food and Travel Blog</h1>
         <div className='section__divider' />
         <section className='c-hero__image'>

@@ -11,6 +11,15 @@
     max-width: 500px;
     margin: 0 auto;
     padding: 0 3%;
+
+    a {
+      text-decoration: none;
+      color: #FF3200;
+
+      &:hover {
+        border-bottom: 1px solid #FF3200;
+      }
+    }
   }
 
   h3 {

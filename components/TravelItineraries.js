@@ -13,7 +13,7 @@ class TravelItineraries extends Component {
       
       <div className='section__divider' />
       <div className='c-recipes__container'>
-        <Link href='/travel_itinerary'>
+        <Link href='/japan_itinerary'>
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
               <img src='/static/Images/Japan_Korea 617.jpg' />
