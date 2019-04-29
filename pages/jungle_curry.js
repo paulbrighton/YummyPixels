@@ -18,7 +18,7 @@ class JungleCurry extends Component {
                   </picture>
                 </figure>
               </div>
-              <p className='c-recipe__description-text'>Northern Thai pork curry with young green pepper corns, chilis and snake beans.</p>
+              <p className='c-recipe__description-text'>Northern Thai pork curry with young green peppercorns, chilli and snake beans.</p>
               <div className='c-recipe__info'>
                 <div className='c-recipe__info-item'>
                   <figure><img src='/static/Images/alarm-clock.svg' alt='Alarm clock' /></figure>
