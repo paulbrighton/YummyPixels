@@ -1,13 +1,12 @@
 .c-recipes {
   width: 100%;
-  max-width: 1300px;
-  margin: 0 auto; 
+  max-width: 1120px;
+  margin: 0 auto 75px; 
   background-color: #f2f2f2;
 
   &__container {
     min-width: 300px;
     margin: 0 3%;
-    padding: 0 0 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,7 +16,7 @@
   &__recipe-card {
     background: #fff;
     width: 100%;
-    margin: 25px 10px 105px;
+    margin: 25px 10px;
     position: relative;
     flex: 1 1 100%;
 

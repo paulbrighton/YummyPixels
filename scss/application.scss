@@ -9,12 +9,11 @@
 /* Object Styles =========================
 ======================================= */
 
-@import "objects/o-main-container";
-
 
 /* Component Styles ======================
 ======================================= */
 
+@import "components/c-main";
 @import "components/c-header";
 @import "components/c-main-nav";
 @import "components/c-overlay";

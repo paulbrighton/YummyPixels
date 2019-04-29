@@ -14,7 +14,7 @@ class Cookbook extends Component {
         </div>
         <div className='c-cookbook__text'>
           <h3>Get the book!</h3>
-          <p>Want the recipes availbale offline? The YummyEats cookbook is avaiable to buy as a digital download from Amazon or iBooks. Get your copy now!</p>
+          <p>Want the recipes availbale offline? The YummyEats cookbook is avaiable to buy as a digital download from <a href='https://www.amazon.co.uk/dp/B01DFPXFEY' className='c-portfolio-project__link'>Amazon</a> or <a href='https://itunes.apple.com/gb/book/yummy-eats/id1095148851?mt=11' className='c-portfolio-project__link'>iBooks</a>. Get your copy now!</p>
         </div>
       </div>
     </section>
