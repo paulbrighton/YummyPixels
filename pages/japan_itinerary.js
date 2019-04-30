@@ -14,7 +14,7 @@ class JapanItinerary extends Component {
                 <figure>
                   <picture>
                     <source media='(max-width: 768px)' srcSet='static/Images/japan/japan_gate.jpg' />
-                    <img src='static/Images/japan/japan_gate_hero.jpg' alt='Thai jungle curry with rice' />
+                    <img src='static/Images/japan/japan_gate_hero.jpg' alt='Chinese style gate in front of a temple' />
                   </picture>
                 </figure>
               </div>
@@ -24,11 +24,11 @@ class JapanItinerary extends Component {
               
               <div className='c-itinerary__info'>
                 <div className='c-itinerary__info-item'>
-                  <figure><img src='/static/Images/calendar.svg' alt='Alarm clock' /></figure>
+                  <figure><img src='/static/Images/calendar.svg' alt='Animated calendar' /></figure>
                   <p>Duration: 14 Days</p>
                 </div>
                 <div className='c-itinerary__info-item'>
-                  <figure><img src='/static/Images/budget.svg' alt='Animated hand carrying food' /></figure>
+                  <figure><img src='/static/Images/budget.svg' alt='Animated paper and calculator' /></figure>
                   <p>Cost: £3000 for 2</p>
                 </div>
                 <div className='c-itinerary__info-item'>
@@ -57,7 +57,7 @@ class JapanItinerary extends Component {
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
                     <div className='iframe__container'>
-                      <iframe width='800' height='450' src='https://www.youtube-nocookie.com/embed/MuG6F8896qw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen />
+                      <iframe width='800' height='450' src='https://www.youtube-nocookie.com/embed/MuG6F8896qw' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
                     </div>
                   </figure>
                 </div>
@@ -89,7 +89,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/meiji_jingu.jpg' />
+                    <img src='/static/Images/japan/meiji_jingu.jpg' alt='Shinto priests in a Tokyo shrine' />
                   </figure>
                 </div>
               </div>
@@ -103,7 +103,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/metro_building_tokyo.jpg' />
+                    <img src='/static/Images/japan/metro_building_tokyo.jpg' alt='Tokyo Metropolitan Government Building' />
                     <figcaption>Photo by Charles Postiaux on Unsplash</figcaption>
                   </figure>
                 </div>
@@ -119,7 +119,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/soju.jpg' />
+                    <img src='/static/Images/japan/soju.jpg' alt='Bottle of Soju - Korean rice drink' />
                     <figcaption>Photo by Eiliv-Sonas Aceron on Unsplash</figcaption>
                   </figure>
                 </div>
@@ -134,7 +134,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/seoul_palace.jpg' />
+                    <img src='/static/Images/japan/seoul_palace.jpg' alt='Gyeongbokgung Palace in Seoul' />
                   </figure>
                 </div>
               </div>
@@ -149,7 +149,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/korean_market.jpg' />
+                    <img src='/static/Images/japan/korean_market.jpg' alt='Food market in Seoul' />
                     <figcaption>Image by tragrpx from Pixabay</figcaption>
                   </figure>
                 </div>
@@ -164,7 +164,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/ryokan.jpg' />
+                    <img src='/static/Images/japan/ryokan.jpg' alt='Traditional Japanese bedroom' />
                   </figure>
                 </div>
               </div>
@@ -178,7 +178,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/matsumoto.jpg' />
+                    <img src='/static/Images/japan/matsumoto.jpg' alt='Matsumoto Castle in Matsumoto, Japan' />
                   </figure>
                 </div>
               </div>
@@ -192,7 +192,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/hida.jpg' />
+                    <img src='/static/Images/japan/hida.jpg' alt='Hida Minzoka Mura Folk Village in Takayama, Japan' />
                   </figure>
                 </div>
               </div>
@@ -206,7 +206,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/shinkansen.jpg' />
+                    <img src='/static/Images/japan/shinkansen.jpg' alt='Japanese bullet train' />
                     <figcaption>Image by tikisada from Pixabay</figcaption>
                   </figure>
                 </div>
@@ -222,7 +222,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/nara_temple.jpg' />
+                    <img src='/static/Images/japan/nara_temple.jpg' alt='Tōdai-ji temple in Nara, Japan' />
                   </figure>
                 </div>
               </div>
@@ -236,7 +236,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/kyoto.jpg' />
+                    <img src='/static/Images/japan/kyoto.jpg' alt='Small temple in Kyoto' />
                     <figcaption>Image by Michelle Maria from Pixabay</figcaption>
                   </figure>
                 </div>
@@ -251,7 +251,7 @@ class JapanItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/japan/chinese_food.jpg' />
+                    <img src='/static/Images/japan/chinese_food.jpg' alt='Chinese food on a table' />
                   </figure>
                 </div>
               </div>
