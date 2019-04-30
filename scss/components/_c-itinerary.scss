@@ -22,6 +22,15 @@
     font-size: 1.2em;
   }
 
+  a {
+    text-decoration: none;
+    color: #FA6D01;
+
+    &:hover {
+      border-bottom: 1px solid #FA6D01;
+    }
+  }
+
   &__container {
     min-width: 300px;
     max-width: 1120px;
@@ -144,51 +153,7 @@
   }
 }
 
-@media screen and (min-width: 500px) {
-  .c-itinerary {
-  
-    h1 {
-      font-size: 1.9em;
-    }
-
-    p {
-      font-size: 1.2em;
-    }
-  
-    &__description-text {
-      font-size: 1.2em;
-      letter-spacing: 0.05em;
-    }
-  
-    &__info {
-      padding: 0 25px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: baseline;
-
-      &-item {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        flex: 1 1;
-      }
-
-      figure {
-        width: 75px;
-      }
-  
-      p {
-        font-size: 1.2em;
-        max-width: 250px;
-        padding: 0;
-      }
-    }
-  }
-} 
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .c-itinerary {
     
     h1 {
