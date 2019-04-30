@@ -82,8 +82,10 @@ class JapanItinerary extends Component {
               <div className='c-itinerary__main__container'>
                 <div className='c-itinerary__main--day-text'>
                   <h2>Day 3</h2>
-                  <p>A free day to checkout Tokyo using the Metro system. We managed to see Harajuku where the young Japanese like to hang out with all their funky and weird dressing styles and we also went to nearby Yoyogi Park and got a glimpse of a Shinto Wedding in Meiji Jingu Shrine. We then headed to the famous crossing in Shibuya and went to eat some food, today it was Tonkatsu on the menu.</p>
+                  <p>A free day to checkout Tokyo using the Metro system. We managed to see Harajuku where the young Japanese like to hang out with all their funky and weird dressing styles and we also went to nearby Yoyogi Park and got a glimpse of a Shinto Wedding in Meiji Jingu Shrine.</p>
+                  <p>We then headed to the famous crossing in Shibuya and went to eat some food, today it was Tonkatsu on the menu.</p>
                   <p>That night, we decided to explore the hotel neighbourhood for some street photography and got to meet some cool Japanese guy (Keita) that decided to have a few beers with us and tell us all about Japan’s love for beer! This was a long night…</p>
+                  <p>Harajuku is situated between Shinjuku and Shibuya and is on the Yamanote Metro Line. It's also within walking distance of Yoyogi Park and the Meiji Jingu Shrine.</p>
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
@@ -96,7 +98,8 @@ class JapanItinerary extends Component {
               <div className='c-itinerary__main__container c-itinerary__main__container--light'>
                 <div className='c-itinerary__main--day-text'>
                   <h2>Day 4</h2>
-                  <p>Thanks to a typhoon, our plans to go to Nikko didn’t go ahead. We had to spend another day in and around the hotel in Shinjuku. We found a nice Indian restaurant for lunch and by night we visited the tallest building in the area – the Tokyo Metropolitan Government Building (free admission) - for a view of the Tokyo skyline.</p>
+                  <p>Thanks to a typhoon, our plans to go to Nikko didn’t go ahead. We had to spend another day in and around the hotel in Shinjuku.</p>
+                  <p>We found a nice Indian restaurant for lunch and by night we visited the tallest building in the area – the Tokyo Metropolitan Government Building (free admission) - for a view of the Tokyo skyline.</p>
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
@@ -110,7 +113,9 @@ class JapanItinerary extends Component {
               <div className='c-itinerary__main__container'>
                 <div className='c-itinerary__main--day-text'>
                   <h2>Day 5</h2>
-                  <p>Checked out of hotel and went to the airport for our flight to Seoul, South Korea. After landing in Seoul, we headed to Hongdae by the Airport Railroad Express (AREX) where we had booked an Airbnb. After checking in and experiencing the underfloor heating, we shared a bottle of Soju and decided to go out for some of the famous Korean BBQ with all the trimmings and more Soju, yummy.</p>
+                  <p>Checked out of hotel and went to the airport for our flight to Seoul, South Korea. After landing in Seoul, we headed to Hongdae by the Airport Railroad Express (AREX) where we had booked an Airbnb.</p>
+                  <p>After checking in and experiencing the underfloor heating, we shared a bottle of Soju and decided to go out for some of the famous Korean BBQ with all the trimmings and more Soju, yummy.</p>
+                  <p>Hongdae is a good place to stay in Seoul, there are lots of bars and cheap places to eat as it's close to Hongik University.</p>
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
@@ -138,7 +143,8 @@ class JapanItinerary extends Component {
               <div className='c-itinerary__main__container'>
                 <div className='c-itinerary__main--day-text'>
                   <h2>Day 7</h2>
-                  <p>On day two in Seoul, we decided to see the city using the Seoul Metro System - it’s cheap and covers most of the main sites. We managed to cram in Changdeokgung Palace and Huwon with its astonishing gardens, Gwangjang Market and Myeongdong for some mandu (Korean dumplings).</p>
+                  <p>On day two in Seoul, we decided to see the city using the Seoul Metro System - it’s cheap and covers most of the main sites.</p>
+                  <p>We managed to cram in Changdeokgung Palace and Huwon with its astonishing gardens, Gwangjang Market and Myeongdong for some mandu (Korean dumplings).</p>
                   <p>We then finished the day at a Bulgogi restaurant for more tasty food and Soju.</p>
                 </div>
                 <div className='c-itinerary__main--day-img'>
@@ -153,7 +159,8 @@ class JapanItinerary extends Component {
               <div className='c-itinerary__main__container c-itinerary__main__container--light'>
                 <div className='c-itinerary__main--day-text'>
                   <h2>Day 8</h2>
-                  <p>We flew back to Tokyo, picked up our Japanese Rail Pass (cost: £155 for a week) and headed for Matsumoto in the Japanese Alps where we stayed in a traditional Ryokan (Inn) with futon beds and the most advanced toilet I’ve ever seen.</p>
+                  <p>We flew back to Tokyo, picked up our Japan Rail Pass (cost: £200 for a week) and headed for Matsumoto in the Japanese Alps where we stayed in a traditional Ryokan (Inn) with futon beds and the most advanced toilet I’ve ever seen.</p>
+                  <p>The Japan Rail Pass is a good way to make travel by train cheaper, there are a few options but the one we got covered the whole of Japan and also lets you use the bullet trains.</p>
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
@@ -167,6 +174,7 @@ class JapanItinerary extends Component {
                 <div className='c-itinerary__main--day-text'>
                   <h2>Day 9</h2>
                   <p>We picked up the hire car then went to visit Matsumoto Castle before we set off to Takayama. We stopped at Kamikochi at the Chubu Sangaku National Park for some mild hiking and to enjoy the mountain scenery. We arrived in Takayama around 18:00 only to find that all restaurants close at 17:00 so it was 7 Eleven for supper.</p>
+                  <p>Matsumoto Castle is open from 8:30 till 17:00, entry costs &#165;610 and is really worth a visit.</p>
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
@@ -180,6 +188,7 @@ class JapanItinerary extends Component {
                 <div className='c-itinerary__main--day-text'>
                   <h2>Day 10</h2>
                   <p>We strolled through Sanmachi Suji historic district visiting sake merchants and stopping for some green tea ice-cream. After having Hida beef for lunch, we headed to Hida Minzoka Mura Folk Village (Hida no Sato).</p>
+                  <p>Hida Folk Village is an open air museum displaying around thirty traditional houses from the Hida region, the mountainous area around Takayama.</p>
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
@@ -209,6 +218,7 @@ class JapanItinerary extends Component {
                   <h2>Day 12</h2>
                   <p>Day trip to Nara by train: got to see the friendly deer that are all over the city and in Nara Park. We also did some sightseeing of the historical temples such as Kofukuji and its five storey pagoda, and the amazing Tōdai-ji temple and the Daibutsuden.</p>
                   <p>Nara is definitely a place you should try to get to if time and cost permit it.</p>
+                  <p>We probably missed loads while we were there so checkout the Nara page on <a href='https://www.japan-guide.com/e/e2165.html'>www.japan-guide.com</a> to see where you want to visit.</p>
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>

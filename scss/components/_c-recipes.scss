@@ -6,7 +6,7 @@
 
   &__container {
     min-width: 300px;
-    margin: 0 3%;
+    margin: 0 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,9 +16,10 @@
   &__recipe-card {
     background: #fff;
     width: 100%;
-    margin: 25px 10px;
+    margin: 25px 5px;
     position: relative;
     flex: 1 1 100%;
+    border: 1px solid rgba(110, 110, 110, 0.4);
 
     &:hover {
       cursor: pointer;
