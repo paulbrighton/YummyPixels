@@ -4,7 +4,7 @@
 
   &__container {
     min-width: 300px;
-    margin: 0 auto;
+    max-width: 1120px;
     background-color: #252525;
     margin: 0 auto; 
     height: 50px;
@@ -17,15 +17,15 @@
   &__brand-logo {
     width: 175px;
     height: auto;
-    margin-left: 15px;
+    margin-left: 10px;
     padding-top: 5px;
   }
 }
 
-@media screen and (min-width: 960px) {
-  .c-header {
-    &__brand-logo {
-      margin-left: 30px;
-    }
-  }
-}
+// @media screen and (min-width: 960px) {
+//   .c-header {
+//     &__brand-logo {
+//       margin-left: 30px;
+//     }
+//   }
+// }

@@ -5,13 +5,13 @@ import Link from 'next/link'
 class RecipeCategories extends Component {
   render () {
     return <section className='c-recipe-categories'>
-      <h2>Recipe Categories</h2>
+      <h2>Recipes</h2>
       <div className='section__divider' />
       <div className='c-recipe-categories__container'>
         <Link href='/beef'>
           <div className='c-recipe-card'>
             <figure className='c-recipe-card__image'>
-              <img src='/static/Images/lomo_saltado_category.jpg' alt='Peruvian beef stirfry' />
+              <img src='/static/Images/food/lomo_saltado.jpg' alt='Peruvian beef stirfry' />
             </figure>
             <figcaption className='c-recipe-card__title'>Beef</figcaption>
             <p className='c-recipe-card__text'>A selection of beef recipes from Peru, China and the Middle East.</p>
@@ -20,7 +20,7 @@ class RecipeCategories extends Component {
         <Link href='/vegetarian'>
           <div className='c-recipe-card'>
             <figure className='c-recipe-card__image'>
-              <img src='/static/Images/meze_category.jpg' alt='Meze food platter' />
+              <img src='/static/Images/food/tabbouleh.jpg' alt='Meze food platter' />
             </figure>
             <figcaption className='c-recipe-card__title'>Vegetarian</figcaption>
             <p className='c-recipe-card__text'>Have a day off meat with one of these tasty vegetarian dishes.</p>
@@ -29,7 +29,7 @@ class RecipeCategories extends Component {
         <Link href='/seafood'>
           <div className='c-recipe-card'>
             <figure className='c-recipe-card__image'>
-              <img src='/static/Images/thai_prawn_curry_category.jpg' alt='Thai red prawn curry' />
+              <img src='/static/Images/food/thai-prawn-curry.jpg' alt='Thai red prawn curry' />
             </figure>
             <figcaption className='c-recipe-card__title'>Seafood</figcaption>
             <p className='c-recipe-card__text'>There's more to seafood than fish &amp; chips. Why not try something spicy. </p>
@@ -38,7 +38,7 @@ class RecipeCategories extends Component {
         <Link href='/poultry'>
           <div className='c-recipe-card'>
             <figure className='c-recipe-card__image'>
-              <img src='/static/Images/quwarmah_ala_dajaj_category.jpg' alt='Kuwaiti curried chicken' />
+              <img src='/static/Images/food/quwarmah_ala_dajaj.jpg' alt='Kuwaiti curried chicken' />
             </figure>
             <figcaption className='c-recipe-card__title'>Poultry</figcaption>
             <p className='c-recipe-card__text'>Chicken is one of the most popular meats in the world but don't forget the duck.</p>
@@ -47,7 +47,7 @@ class RecipeCategories extends Component {
         <Link href='/lamb'>
           <div className='c-recipe-card'>
             <figure className='c-recipe-card__image'>
-              <img src='/static/Images/indian_lamb_chops_category.jpg' alt='Indian lamb chops' />
+              <img src='/static/Images/food/seekh_kebab.jpg' alt='Indian lamb chops' />
             </figure>
             <figcaption className='c-recipe-card__title'>Lamb</figcaption>
             <p className='c-recipe-card__text'>Lamb is great for curries and kebabs and also works well for marinating and grilling.</p>
@@ -56,7 +56,7 @@ class RecipeCategories extends Component {
         <Link href='/pork'>
           <div className='c-recipe-card'>
             <figure className='c-recipe-card__image'>
-              <img src='/static/Images/belly_pork_skewers_category.jpg' alt='Japanese belly pork skewers' />
+              <img src='/static/Images/food/kushiyaki.jpg' alt='Japanese belly pork skewers' />
             </figure>
             <figcaption className='c-recipe-card__title'>Pork</figcaption>
             <p className='c-recipe-card__text'>Popular in the Far East, pork is so versatile due to the different cuts that are available.</p>
