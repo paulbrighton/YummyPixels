@@ -16,26 +16,28 @@ class TravelItineraries extends Component {
         <Link href='/japan_itinerary'>
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
-              <img src='/static/Images/Japan_Korea 617.jpg' />
+              <img src='/static/Images/japan/matsumoto.jpg' />
             </figure>
-            <figcaption className='c-recipe-card__title'>Japan/South Korea</figcaption>
-            <p className='c-recipes__recipe-card__text'>Northern Thai pork curry with green pepper corns and snake beans.</p>
+            <figcaption className='c-recipe-card__title'>Japan &amp; South Korea</figcaption>
+            <p className='c-recipes__recipe-card__text'>Visiting Tokyo, Kyoto, Seoul, Matsumoto, Takayama and Nara.</p>
           </div>
         </Link>
         <div className='c-recipes__recipe-card'>
           <figure className='c-recipes__recipe-card__image'>
-            <img src='/static/Images/Japan_Korea 617.jpg' />
+            <img src='/static/Images/china/fisherman_china.jpg' />
           </figure>
-          <figcaption className='c-recipe-card__title'>Philippines</figcaption>
-          <p className='c-recipes__recipe-card__text'>Taiwanese minced pork cooked in a soy with steamed rice and egg.</p>
+          <figcaption className='c-recipe-card__title'>China &amp; Hong Kong</figcaption>
+          <p className='c-recipes__recipe-card__text'>Destinations include Beijing, Datong, Pingyao, Yangshuo and Hong Kong.</p>
         </div>
-        <div className='c-recipes__recipe-card'>
-          <figure className='c-recipes__recipe-card__image'>
-            <img src='/static/Images/Japan_Korea 617.jpg' />
-          </figure>
-          <figcaption className='c-recipes__recipe-card__title'>Myanmar</figcaption>
-          <p className='c-recipes__recipe-card__text'>Tofu and minced pork cooked with chilli bean paste and Szechuan peppercorns.</p>
-        </div>
+        <Link href='/burma_itinerary'>
+          <div className='c-recipes__recipe-card'>
+            <figure className='c-recipes__recipe-card__image'>
+              <img src='/static/Images/burma/inle_lake_boat.jpg' />
+            </figure>
+            <figcaption className='c-recipes__recipe-card__title'>Myanmar (Burma)</figcaption>
+            <p className='c-recipes__recipe-card__text'>Yangon, Mandalay, Bagan and Inle Lake overland by bus in 14 days.</p>
+          </div>
+        </Link>
       </div>
     </section>
   }
