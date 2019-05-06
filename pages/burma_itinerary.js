@@ -208,8 +208,7 @@ class BurmaItinerary extends Component {
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <img src='/static/Images/burma/inle_lake.jpg' alt='Temple in middle of Inle Lake, Myanmar' />
-                    <figcaption>Image by Patrick Fransoo from Pixabay</figcaption>
+                    <img src='/static/Images/gallery/inle-lake.jpg' alt='Temple in middle of Inle Lake, Myanmar' />
                   </figure>
                 </div>
               </div>
