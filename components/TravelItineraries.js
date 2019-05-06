@@ -19,16 +19,18 @@ class TravelItineraries extends Component {
               <img src='/static/Images/japan/matsumoto.jpg' />
             </figure>
             <figcaption className='c-recipe-card__title'>Japan &amp; South Korea</figcaption>
-            <p className='c-recipes__recipe-card__text'>Visiting Tokyo, Kyoto, Seoul, Matsumoto, Takayama and Nara.</p>
+            <p className='c-recipes__recipe-card__text'>Visiting Tokyo, Kyoto, Matsumoto, Takayama, Nara and Seoul.</p>
           </div>
         </Link>
-        <div className='c-recipes__recipe-card'>
-          <figure className='c-recipes__recipe-card__image'>
-            <img src='/static/Images/china/fisherman_china.jpg' />
-          </figure>
-          <figcaption className='c-recipe-card__title'>China &amp; Hong Kong</figcaption>
-          <p className='c-recipes__recipe-card__text'>Destinations include Beijing, Datong, Pingyao, Yangshuo and Hong Kong.</p>
-        </div>
+        <Link href='/china_itinerary'>
+          <div className='c-recipes__recipe-card'>
+            <figure className='c-recipes__recipe-card__image'>
+              <img src='/static/Images/china/great_wall.jpg' />
+            </figure>
+            <figcaption className='c-recipe-card__title'>China &amp; Hong Kong</figcaption>
+            <p className='c-recipes__recipe-card__text'>Destinations include Beijing, Datong, Pingyao, Chengdu, Yangshuo and Hong Kong.</p>
+          </div>
+        </Link>
         <Link href='/burma_itinerary'>
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
