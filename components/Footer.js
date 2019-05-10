@@ -25,13 +25,13 @@ class Footer extends Component {
         <div className='c-footer__info'>
           <div className='c-footer__social'>
             <h3>Social Media</h3>
-            <li><Link href='https://twitter.com/paulbrighton_'><a>Twitter</a></Link></li>
-            <li><Link href='https://www.linkedin.com/in/paulbrighton/'><a>LinkedIn</a></Link></li>
+            <li><a href='https://twitter.com/paulbrighton_' target='_blank'>Twitter</a></li>
+            <li><a href='https://www.linkedin.com/in/paulbrighton/' target='_blank'>LinkedIn</a></li>
           </div>
           <div className='c-footer__support'>
             <h3>Support Me</h3>
-            <li><Link href='https://twitter.com/paulbrighton_'><a>YummyEats Cookboook</a></Link></li>
-            <li><Link href='https://www.linkedin.com/in/paulbrighton/'><a>Stock Photography</a></Link></li>
+            <li><a href='https://itunes.apple.com/gb/book/yummy-eats/id1095148851?mt=11' target='_blank'>YummyEats Cookboook</a></li>
+            <li><a href='https://www.shutterstock.com/g/paulbrighton76' target='_blank'>Stock Photography</a></li>
           </div>
           <div className='c-footer__legal'>
             <h3>Boring Stuff</h3>
