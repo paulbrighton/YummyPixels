@@ -182,15 +182,13 @@
       flex-direction: row;
       justify-content: space-around;
       align-items: baseline;
-      max-width: 100%;
-      overflow: hidden;
 
       &-item {
         display: flex;
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        flex: 1 1;
+        flex: 1 1 100%;
       }
 
       figure {
