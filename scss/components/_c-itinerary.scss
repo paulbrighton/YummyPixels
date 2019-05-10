@@ -182,6 +182,8 @@
       flex-direction: row;
       justify-content: space-around;
       align-items: baseline;
+      max-width: 100%;
+      overflow: hidden;
 
       &-item {
         display: flex;
