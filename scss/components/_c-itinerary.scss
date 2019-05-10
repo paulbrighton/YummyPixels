@@ -159,7 +159,7 @@
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
   .c-itinerary {
     
     h1 {
@@ -168,7 +168,7 @@
     }
 
     p {
-      font-size: 1.3em;
+      font-size: 1.2em;
     }
   
     &__description-text {
@@ -192,12 +192,13 @@
       }
 
       figure {
-        width: 75px;
+        width: 60px;
       }
   
       p {
         max-width: 250px;
         padding: 0;
+        font-size: 1.1em;
       }
     }
 
@@ -229,6 +230,24 @@
             justify-items: center;
           }
         }
+      }
+    }
+  }
+} 
+
+@media screen and (min-width: 768px) {
+  .c-itinerary {
+  
+    &__info {
+
+      figure {
+        width: 75px;
+      }
+  
+      p {
+        max-width: 250px;
+        padding: 0;
+        font-size: 1.2em;
       }
     }
   }
