@@ -12,7 +12,7 @@ class Layout extends Component {
     return <div className='container'>
       <Head>
         <title>YummyPixels - Food and Travel Blog</title>
-        <meta name='description' content='A blog by Paul Brighton all about food and travel. A collection of articles and recipes inspired by travelling the world.' />
+        <meta name='description' content='A blog by Paul Brighton all about food and travel. A collection of articles and recipes inspired by travelling the world.' key='viewport' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='shortcut icon' href='/static/Images/favicon/favicon-32x32.png' type='image/x-icon' />
       </Head>
