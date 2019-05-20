@@ -1,10 +1,19 @@
 import { Component } from 'react'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 
 class MuttonChaap extends Component {
   render () {
     return <Layout {...this.props}>
+      <Head>
+        <title>Thai Green Chicken Curry Recipe by Yummy Pixels</title>
+        <meta
+          name='description'
+          content='A Thai Green Chicken Curry (Gaeng Khiao Wan Gai) recipe cooked with baby aubergines and snake beans by Paul Brighton at Yummy Pixels.'
+          key='viewport'
+        />
+      </Head>
       <main className='o-main'>
         <div className='c-recipe'>
           <div className='c-recipe__container'>

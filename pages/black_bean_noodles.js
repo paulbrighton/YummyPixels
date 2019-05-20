@@ -1,10 +1,19 @@
 import { Component } from 'react'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 
 class BlackBeanNoodles extends Component {
   render () {
     return <Layout {...this.props}>
+      <Head>
+        <title>Beef and Black Bean Noodle Recipe by Yummy Pixels</title>
+        <meta
+          name='description'
+          content='A really tasty Chinese beef and black bean noodle recipe that is easy to follow by Paul Brighton at Yummy Pixels.'
+          key='viewport'
+        />
+      </Head>
       <main className='o-main'>
         <div className='c-recipe'>
           <div className='c-recipe__container'>

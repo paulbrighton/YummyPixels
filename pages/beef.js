@@ -11,7 +11,7 @@ class Beef extends Component {
         <title>Yummy Pixels - Beef Recipe Collection</title>
         <meta
           name='description'
-          content='A collection of beef recipes from around the world by Yummy Pixels. Includes Kibbeh, Lomo Saltado and Chinese beef noodles'
+          content='A collection of beef recipes from around the world by Yummy Pixels. Includes Kibbeh, Lomo Saltado and Chinese beef noodles.'
           key='viewport'
         />
       </Head>
