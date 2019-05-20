@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 import Gallery from '../components/Gallery'
@@ -6,6 +7,14 @@ import Gallery from '../components/Gallery'
 class Stock extends Component {
   render () {
     return <Layout {...this.props}>
+      <Head>
+        <title>Stock Photography - Gallery Page by Yummy Pixels</title>
+        <meta
+          name='description'
+          content='A gallery of food, travel and cat photos all available to buy and use in your own projects from Paul Brighton at Shutterstock.'
+          key='viewport'
+        />
+      </Head>
       <main className='o-main'>
         <div className='c-stock-photography'>
           <div className='c-stock-photography__container'>

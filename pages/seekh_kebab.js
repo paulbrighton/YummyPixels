@@ -1,10 +1,19 @@
 import { Component } from 'react'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 
 class SeekhKebab extends Component {
   render () {
     return <Layout {...this.props}>
+      <Head>
+        <title>Seekh Kebab Recipe by Yummy Pixels</title>
+        <meta
+          name='description'
+          content='A Seekh Kebab recipe served with chilli sauce, lemon wedges and flatbread by Paul Brighton at Yummy Pixels.'
+          key='viewport'
+        />
+      </Head>
       <main className='o-main'>
         <div className='c-recipe'>
           <div className='c-recipe__container'>

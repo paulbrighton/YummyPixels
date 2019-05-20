@@ -1,10 +1,19 @@
 import { Component } from 'react'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 
 class ChinaItinerary extends Component {
   render () {
     return <Layout {...this.props}>
+      <Head>
+        <title>China and Hong Kong 16 day travel itinerary by Yummy Pixels</title>
+        <meta
+          name='description'
+          content='A travel itinerary for China and Hong Kong that shows you how to see Beijing, Datong, Pingyao, Chengdu, Yangshuo and Hong Kong in 16 days.'
+          key='viewport'
+        />
+      </Head>
       <main className=''>
         <div className='c-itinerary'>
           <div className='c-itinerary__container'>

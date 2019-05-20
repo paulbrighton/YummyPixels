@@ -1,10 +1,19 @@
 import { Component } from 'react'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 
 class JapanItinerary extends Component {
   render () {
     return <Layout {...this.props}>
+      <Head>
+        <title>Japan and South Korea 16 day travel itinerary by Yummy Pixels</title>
+        <meta
+          name='description'
+          content='A travel itinerary for Japan and South Korea that shows you how to see Tokyo, Kyoto, Seoul, Matsumoto, Takayama and Nara in 16 days.'
+          key='viewport'
+        />
+      </Head>
       <main className=''>
         <div className='c-itinerary'>
           <div className='c-itinerary__container'>
@@ -21,7 +30,6 @@ class JapanItinerary extends Component {
               <div className='c-itinerary__description-text'>
                 <p>Visiting Tokyo, Kyoto, Seoul, Matsumoto, Takayama and Nara.</p>
               </div>
-              
               <div className='c-itinerary__info'>
                 <div className='c-itinerary__info-item'>
                   <figure><img src='/static/Images/calendar.svg' alt='Animated calendar' /></figure>

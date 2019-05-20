@@ -1,10 +1,19 @@
 import { Component } from 'react'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 
 class TeaSmokedDuck extends Component {
   render () {
     return <Layout {...this.props}>
+      <Head>
+        <title>Vietnamese Tea Smoked Duck Recipe by Yummy Pixels</title>
+        <meta
+          name='description'
+          content='A Vietnamese style green tea smoked duck recipe served with spring onion, chilli, coriander and crusty baguettes by Thais Brighton at Yummy Pixels.'
+          key='viewport'
+        />
+      </Head>
       <main className='o-main'>
         <div className='c-recipe'>
           <div className='c-recipe__container'>
