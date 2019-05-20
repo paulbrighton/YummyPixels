@@ -1,10 +1,19 @@
 import { Component } from 'react'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 
 class FishTacos extends Component {
   render () {
     return <Layout {...this.props}>
+      <Head>
+        <title>Baja Fish Taco Recipe by Yummy Pixels</title>
+        <meta
+          name='description'
+          content='A Baja Fish Taco with pineapple salsa and Baja style sauce recipe by Paul Brighton at Yummy Pixels.'
+          key='viewport'
+        />
+      </Head>
       <main className='o-main'>
         <div className='c-recipe'>
           <div className='c-recipe__container'>

@@ -1,15 +1,24 @@
 import { Component } from 'react'
+import Head from 'next/head'
 
 import Layout from '../components/Layout'
 
 class SaltFishAndAckee extends Component {
   render () {
     return <Layout {...this.props}>
+      <Head>
+        <title>Ackee and Saltfish Recipe by Yummy Pixels</title>
+        <meta
+          name='description'
+          content='A Jamaican Ackee and Saltfish recipe served with fried dumplings and callaloo by Paul Brighton at Yummy Pixels.'
+          key='viewport'
+        />
+      </Head>
       <main className='o-main'>
         <div className='c-recipe'>
           <div className='c-recipe__container'>
             <section className='c-recipe__header'>
-              <h1>Jamaican Ackee & Saltfish</h1>
+              <h1>Jamaican Ackee &amp; Saltfish</h1>
               <div className='c-recipe__image'>
                 <figure>
                   <picture>
