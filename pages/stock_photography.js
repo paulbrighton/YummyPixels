@@ -11,7 +11,7 @@ class Stock extends Component {
           <div className='c-stock-photography__container'>
             <section className='c-stock-photography__header'>
               <h1>Stock Photography</h1>
-              <div className='c-stock-photography__section__divider' />
+              <div className='section__divider' />
               <div className='c-stock-photography__image'>
                 <figure>
                   <picture>
