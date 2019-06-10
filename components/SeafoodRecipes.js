@@ -12,8 +12,8 @@ class SeafoodRecipes extends Component {
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
               <img src='/static/Images/food/fish_tacos.jpg' alt='Mexican fish tacos' />
+              <figcaption className='c-recipe-card__title'>Baja Fish Tacos</figcaption>
             </figure>
-            <figcaption className='c-recipe-card__title'>Baja Fish Tacos</figcaption>
             <p className='c-recipes__recipe-card__text'>Mexican fish tacos with red cabbage, pineapple salsa and Baja style sauce. </p>
           </div>
         </Link>
@@ -21,8 +21,8 @@ class SeafoodRecipes extends Component {
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
               <img src='/static/Images/food/prawns_in_pumpkin.jpg' alt='Brazilian prawn curry in pumpkins' />
+              <figcaption className='c-recipe-card__title'>Camarão na Moranga</figcaption>
             </figure>
-            <figcaption className='c-recipe-card__title'>Camarão na Moranga</figcaption>
             <p className='c-recipes__recipe-card__text'>Brazilian prawn curry cooked with coconut milk and cream.</p>
           </div>
         </Link>
@@ -30,8 +30,8 @@ class SeafoodRecipes extends Component {
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
               <img src='/static/Images/food/salt_fish_ackee.jpg' alt='Salt fish and ackee' />
+              <figcaption className='c-recipes__recipe-card__title'>Ackee &amp; Saltfish</figcaption>
             </figure>
-            <figcaption className='c-recipes__recipe-card__title'>Ackee &amp; Saltfish</figcaption>
             <p className='c-recipes__recipe-card__text'>Traditional Jamaican dish made with salt cod and ackee.</p>
           </div>
         </Link>

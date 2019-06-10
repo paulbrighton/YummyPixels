@@ -12,8 +12,8 @@ class PoultryRecipes extends Component {
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
               <img src='/static/Images/food/smoked_duck.jpg' alt='Vietnamese tea smoked duck' />
+              <figcaption className='c-recipe-card__title'>Tea Smoked Duck</figcaption>
             </figure>
-            <figcaption className='c-recipe-card__title'>Tea Smoked Duck</figcaption>
             <p className='c-recipes__recipe-card__text'>Vietnamese green tea smoked duck breast with salad and baguettes.</p>
           </div>
         </Link>
@@ -21,8 +21,8 @@ class PoultryRecipes extends Component {
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
               <img src='/static/Images/food/quwarmah_ala_dajaj.jpg' alt='Kuwaiti curried chicken' />
+              <figcaption className='c-recipe-card__title'>Quwarmah ala Dajaj</figcaption>
             </figure>
-            <figcaption className='c-recipe-card__title'>Quwarmah ala Dajaj</figcaption>
             <p className='c-recipes__recipe-card__text'>Traditional Kuwaiti curried chicken cooked with baharat and dried lime.</p>
           </div>
         </Link>
@@ -30,8 +30,8 @@ class PoultryRecipes extends Component {
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
               <img src='/static/Images/food/thai_green_curry.jpg' alt='Thai green chicken curry' />
+              <figcaption className='c-recipes__recipe-card__title'>Gaeng Khiao Wan Gai</figcaption>
             </figure>
-            <figcaption className='c-recipes__recipe-card__title'>Gaeng Khiao Wan Gai</figcaption>
             <p className='c-recipes__recipe-card__text'>Thai green chicken curry with baby aubergines and snake beans.</p>
           </div>
         </Link>
