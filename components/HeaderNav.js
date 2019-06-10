@@ -41,9 +41,7 @@ class HeaderNav extends Component {
         <div className='c-hamburger-nav' onClick={this.toggleMenu}>&#9776;</div>
       </nav>
       <nav className='c-main-nav'>
-        <ul>
-          <MainNav />
-        </ul>
+        <MainNav />
       </nav>
     </div>
   }
