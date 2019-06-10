@@ -12,8 +12,8 @@ class LambRecipes extends Component {
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
               <img src='/static/Images/food/indian_lamb_chops.jpg' alt='Indian lamb chops' />
+              <figcaption className='c-recipe-card__title'>Mutton Chaap</figcaption>
             </figure>
-            <figcaption className='c-recipe-card__title'>Mutton Chaap</figcaption>
             <p className='c-recipes__recipe-card__text'>Battered and fried spicy Indian lamb cutlets.</p>
           </div>
         </Link>
@@ -21,8 +21,8 @@ class LambRecipes extends Component {
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
               <img src='/static/Images/food/lamb_curry.jpg' alt='Indian lamb curry' />
+              <figcaption className='c-recipe-card__title'>Mutton Durbari</figcaption>
             </figure>
-            <figcaption className='c-recipe-card__title'>Mutton Durbari</figcaption>
             <p className='c-recipes__recipe-card__text'>Mughlai spicy lamb curry with fried onions.</p>
           </div>
         </Link>
@@ -30,8 +30,8 @@ class LambRecipes extends Component {
           <div className='c-recipes__recipe-card'>
             <figure className='c-recipes__recipe-card__image'>
               <img src='/static/Images/food/seekh_kebab.jpg' alt='Seekh kebabs' />
+              <figcaption className='c-recipes__recipe-card__title'>Seekh Kebab</figcaption>
             </figure>
-            <figcaption className='c-recipes__recipe-card__title'>Seekh Kebab</figcaption>
             <p className='c-recipes__recipe-card__text'>Grilled spiced lamb mince on a metal skewers served with chilli sauce.</p>
           </div>
         </Link>

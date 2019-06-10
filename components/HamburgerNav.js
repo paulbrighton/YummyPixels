@@ -7,10 +7,12 @@ class HamburgerNav extends Component {
     const { click } = this.props
 
     return <div>
-      <li><Link href='/'><a onClick={click}>Home</a></Link></li>
-      <li><Link href='/recipes'><a onClick={click}>Recipes</a></Link></li>
-      <li><Link href='/travel'><a onClick={click}>Travel</a></Link></li>
-      <li><Link href='/stock_photography'><a onClick={click}>Gallery</a></Link></li>
+      <ul>
+        <li><Link href='/'><a onClick={click}>Home</a></Link></li>
+        <li><Link href='/recipes'><a onClick={click}>Recipes</a></Link></li>
+        <li><Link href='/travel'><a onClick={click}>Travel</a></Link></li>
+        <li><Link href='/stock_photography'><a onClick={click}>Gallery</a></Link></li>
+      </ul>
     </div>
   }
 }
