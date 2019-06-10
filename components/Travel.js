@@ -9,7 +9,7 @@ class Travel extends Component {
         <div className='section__divider' />
         <Link href='/travel'>
           <figure className='c-travel__image'>
-            <img src='/static/Images/Japan_Korea 617.jpg' alt='Fushimi Inari Shrine' />
+            <img src='/static/Images/Japan-Korea 617.jpg' alt='Fushimi Inari Shrine' />
           </figure>
         </Link>
       </div>
