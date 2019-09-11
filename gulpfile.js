@@ -17,10 +17,6 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./build/scss'))
 })
 
-// gulp.task('watch', function () {
-//   gulp.watch('../scss/**/*.scss', ['sass'])
-// })
-
 gulp.task('watch', function () {
   gulp.watch('../scss/**/*.scss', gulp.series('sass'))
 })
