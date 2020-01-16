@@ -7,7 +7,7 @@ gulp.task('sass', function () {
   return gulp.src('./scss/application.scss')
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(autoprefixer({
-      browsers: ['last 12 versions'],
+      browsers: ['last 4 versions'],
       grid: 'autoplace',
       cascade: false
     }))

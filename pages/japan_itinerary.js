@@ -75,13 +75,14 @@ class JapanItinerary extends Component {
               <div className='c-itinerary__main__container c-itinerary__main__container--light'>
                 <div className='c-itinerary__main--day-text'>
                   <h2>Day 2</h2>
-                  <p>No trip to Japan would be complete without getting as close to Mount Fuji as possible so we headed by bus to Kawaguchi and then hired a car for the day so we could visit the Five Lakes that are situated around Fuji. We did ask for an English satnav but after trying it out, it only wanted to speak in Chinese. Luckily, it’s not hard to navigate around the Five Lakes so it was a stress free and amazing day seeing Fuji from many different angles.</p>
+                  <p>No trip to Japan would be complete without getting as close to Mount Fuji as possible so we headed by bus to Kawaguchi and then hired a car for the day so we could visit the Five Lakes that are situated around Fuji.</p>
+                  <p>We did ask for an English satnav but after trying it out, it only wanted to speak in Chinese. Luckily, it’s not hard to navigate around the Five Lakes so it was a stress free and amazing day seeing Fuji from many different angles.</p>
+
                 </div>
                 <div className='c-itinerary__main--day-img'>
                   <figure className='c-itinerary__main--image'>
-                    <div className='iframe__container'>
-                      <iframe src='https://giphy.com/embed/fik5xIo45Nb2zjFqvF' width='800' height='450' frameBorder='0' />
-                    </div>
+                    <img src='/static/Images/japan/mt-fuji.jpg' alt='Mount Fuji' />
+                    <figcaption>Image by K2-Kaji from Pixabay</figcaption>
                   </figure>
                 </div>
               </div>

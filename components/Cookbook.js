@@ -1,5 +1,4 @@
 import { Component } from 'react'
-import Link from 'next/link'
 
 class Cookbook extends Component {
   render () {
